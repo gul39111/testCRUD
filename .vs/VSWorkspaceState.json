@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\testCRUD",
+    "\\testCRUD\\Controllers",
+    "\\testCRUD\\Dal",
+    "\\testCRUD\\Dal\\EntityConfigurations",
+    "\\testCRUD\\Migrations",
+    "\\testCRUD\\Services",
+    "\\testCRUD\\Services\\Implementations",
+    "\\testCRUD\\Services\\Interfaces",
+    "\\testCRUD\\Services\\MappingProfiles"
+  ],
+  "SelectedNode": "\\testCRUD\\Startup.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,17 @@
+<form *ngIf="form" [formGroup]="form">
+    <mat-form-field color="accent" floatLabel="auto" appearance="outline">
+        <input matInput [formControl]="form.controls['name']">
+    </mat-form-field>
+</form>
+<div class="roles">
+    <mat-label>Choose a Roles: </mat-label>
+    <mat-checkbox color="primary" *ngFor="let role of userRoles" [checked]="role.isChecked" (change)="onChange(role.id)">
+        {{ role.name }}
+    </mat-checkbox>
+</div>
+<div class="buttons">
+    <button type="button" mat-raised-button color="primary" (click)="onCancel()"><span>CANCEL</span>
+    </button>
+    <button type="submit" mat-raised-button [disabled]="!form.valid" (click)="onSave()">SAVE
+    </button>
+</div>
